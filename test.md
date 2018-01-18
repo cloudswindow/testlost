@@ -24,3 +24,4 @@
 # master 已经 push 了，接着 checkout beta 上修改 1
 
 # master 已经 push 了， beta  也 push 了一次，接着 checkout beta 上修改 2
+# 此时 master 与 beta 一致，然后 master 添加该行，push 到远程
