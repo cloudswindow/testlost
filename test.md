@@ -22,3 +22,5 @@
 
 
 # master 已经 push 了，接着 checkout beta 上修改 1
+
+# master 已经 push 了， beta  也 push 了一次，接着 checkout beta 上修改 2
