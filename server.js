@@ -61,3 +61,8 @@ function a(){
 function a(){
 
 }
+
+// beta 修改4
+function a(){
+
+{
