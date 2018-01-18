@@ -1,1 +1,3 @@
 # content add before git add
+
+# content added after git add without commit when this file created
