@@ -31,6 +31,8 @@ const wdm = webpackDevMiddleware(compiler, {
         colors: true
     }
 })
+
+// 紧急修复4
 app.use(convert(wdm))
 app.use(convert(webpackHotMiddleware(compiler)))
 const server = app.listen(PORT, 'localhost', (err) => {
