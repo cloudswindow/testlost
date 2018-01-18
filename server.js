@@ -12,6 +12,8 @@ const app = new Koa()
 const compiler = webpack(config)
 const PORT = process.env.PORT || 3000
 
+
+// 紧急修复3
 // master 紧急修复2
 // master 紧急修复
 app.use(require('koa-static')(path.join(__dirname, '../dist')));
@@ -29,6 +31,8 @@ const wdm = webpackDevMiddleware(compiler, {
         colors: true
     }
 })
+
+// 紧急修复4
 app.use(convert(wdm))
 app.use(convert(webpackHotMiddleware(compiler)))
 const server = app.listen(PORT, 'localhost', (err) => {
