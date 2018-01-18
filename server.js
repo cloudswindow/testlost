@@ -55,3 +55,9 @@ function a(){
 function a(){
 
 }
+
+
+// beta 特性添加3
+function a(){
+
+}
