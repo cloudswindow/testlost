@@ -50,3 +50,8 @@ server.close(() => {
 function a(){
 
 }
+
+// beta 特性添加2
+function a(){
+
+}
