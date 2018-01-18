@@ -13,7 +13,7 @@ const compiler = webpack(config)
 const PORT = process.env.PORT || 3000
 
 
-
+// master 紧急修复
 app.use(require('koa-static')(path.join(__dirname, '../dist')));
 app.use(views(path.join(__dirname, '../dist/'), {
     extension: 'html'
