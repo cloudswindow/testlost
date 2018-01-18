@@ -45,3 +45,8 @@ server.close(() => {
     process.exit(0)
 })
 })
+
+// beta 特性添加
+function a(){
+
+}
